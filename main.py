@@ -3,7 +3,7 @@ from view import VistaFigura, VistaSolido
 
 
 def main():
-    opcion_figura = input("¿Desea calcular áre y perímetro de una figura? (s/n): ")
+    opcion_figura = input("¿Desea calcular área y perímetro de una figura? (s/n): ")
     if opcion_figura.lower() == "s":
         vista_figura = VistaFigura()
         opcion, medidas = vista_figura.pedir_datos()
@@ -11,7 +11,7 @@ def main():
         area, perimetro = figura.calcular_area_perimetro()
         vista_figura.mostrar_resultado(area, perimetro)
 
-    opcion_solido = input("¿Desea calcular volumen de un sólido? (s/n): ")
+    opcion_solido = input("¿Desea calcular el volumen de un sólido? (s/n): ")
     if opcion_solido.lower() == "s":
         vista_solido = VistaSolido()
         opcion, medidas = vista_solido.pedir_datos()
