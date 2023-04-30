@@ -25,6 +25,7 @@ class Figura:
         else:
             raise ValueError("Opción inválida")
 
+
     def calcular_area_perimetro_rectangulo(self):
         b, h = self.medidas
         area = b * h
