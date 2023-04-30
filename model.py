@@ -4,6 +4,7 @@ import math
 #Cada objeto requiere de unos parámetros específicos
 #para poder calcular su área perímetro o volumen.
 
+#A las figuras planas sólo se les puede calcular área y perímetro
 class Figura:
     def __init__(self, opcion, medidas):
         self.opcion = opcion
@@ -65,6 +66,7 @@ class Figura:
         return area, perimetro
 
 
+#A los sólidos se les puede calcular volumen
 class Solido:
     def __init__(self, opcion, medidas):
         self.opcion = opcion
