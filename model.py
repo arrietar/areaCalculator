@@ -1,3 +1,5 @@
+#modelo
+
 import math
 
 #Se tienen dos tipos de objetos: Figura y Solido
